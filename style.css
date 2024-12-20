@@ -1,0 +1,90 @@
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body {
+    font-family: "Roboto", sans-serif, "Battambang", system-ui;
+    /* font-family: "Battambang", system-ui;
+    font-family: "Moul", serif; */
+}
+
+.menu-bar {
+    background-color: rgb(65, 65, 65);
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li a {
+    display: block;
+    font-family: "Moul", serif;
+    padding: 18px;
+    text-decoration: none;
+    color: white !important;
+    cursor: pointer;
+}
+
+.menu ul li a:hover {
+    background-color: rgb(51, 51, 51);
+}
+
+.menu ul li a.active {
+    background-color: orange;
+
+}
+
+.item-box {
+    height: 360px;
+    margin-top: 18px;
+}
+
+.item-box .box {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.item-box .box .img {
+    overflow: hidden;
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+}
+
+.item-box .box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.5s ease;
+}
+
+.item-box .box:hover img {
+    transform: scale(1.1);
+}
+
+.item-box .box p {
+    padding: 9px;
+    font-size: 18px;
+}
+
+.detail-box {
+    margin-top: 9px;
+}
+
+.detail-box h1 {
+    font-size: 30px;
+}
+
+.detail-box p {
+    font-size: 18px;
+}
